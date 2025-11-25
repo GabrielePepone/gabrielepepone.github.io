@@ -116,7 +116,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     padding-bottom: 15px;
     border-bottom: 1px solid #45475a;
 }
@@ -189,6 +189,7 @@ header {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 15px;
+    padding-top: 10px;
 }
 
 .link-card {
@@ -390,6 +391,7 @@ header {
     }
 }
 
+/* Touch */
 @media (hover: none) and (pointer: coarse) {
     .menu-item,
     .link-card {
@@ -400,4 +402,3 @@ header {
         transform: scale(0.98);
     }
 }
-
