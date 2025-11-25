@@ -116,7 +116,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     padding-bottom: 15px;
     border-bottom: 1px solid #45475a;
 }
@@ -400,3 +400,4 @@ header {
         transform: scale(0.98);
     }
 }
+
