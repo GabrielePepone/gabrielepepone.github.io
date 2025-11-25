@@ -1,4 +1,3 @@
-/* reset */
 * {
     margin: 0;
     padding: 0;
@@ -229,7 +228,6 @@ header {
     font-size: 14px;
 }
 
-/* Mobile */
 @media (max-width: 768px) {
     body {
         padding: 15px;
@@ -281,7 +279,7 @@ header {
     }
 
     .info-card {
-        padding: 15px;
+        padding: 12px 10px;
         margin-bottom: 15px;
     }
 
@@ -290,8 +288,8 @@ header {
         align-items: center;
         justify-content: space-between;
         gap: 10px;
-        margin-bottom: 20px;
-        padding-bottom: 12px;
+        margin-bottom: 0px;
+        padding-bottom: px;
     }
 
     .card-title {
@@ -305,7 +303,7 @@ header {
     .info-row {
         flex-direction: column;
         gap: 5px;
-        padding: 12px 0;
+        padding: 8px 0;
     }
 
     .info-label {
@@ -342,7 +340,6 @@ header {
     }
 }
 
-/* Small devices */
 @media (max-width: 480px) {
     body {
         padding: 10px;
@@ -393,7 +390,6 @@ header {
     }
 }
 
-/* Touch */
 @media (hover: none) and (pointer: coarse) {
     .menu-item,
     .link-card {
